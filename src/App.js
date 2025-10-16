@@ -6,6 +6,7 @@ import { Plus, Trash2, TrendingUp, PieChartIcon, Euro, Banknote, LayoutDashboard
 const INVESTMENT_CATEGORIES = [
     'Ações',
     'Certificados',
+    'Criptomoedas',
     'Depósitos a prazo',
     'ETFs',
     'Fundo de investimentos',
@@ -15,7 +16,7 @@ const INVESTMENT_CATEGORIES = [
 ];
 
 // Categorias que DEVEM ter um nome específico (ex: Ticker ou Nome da Ação/Fundo)
-const CATEGORIES_REQUIRING_NAME = ['Ações', 'ETFs', 'Fundo de investimentos', 'Obrigações'];
+const CATEGORIES_REQUIRING_NAME = ['Ações', 'ETFs','Criptomoedas' ,'Fundo de investimentos', 'Obrigações'];
 
 
 // Função para formatar números exclusivamente em EUR (€)
